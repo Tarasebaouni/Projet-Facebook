@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+}
+
+nav
+{
+background-color: #4267b2;
+position: absolute;
+width: 100%;
+top: 0;
+left: 0;
+height: 42px;
+border-bottom: 1px solid #29487d;
+display: flex;
+justify-content: space-between;
+padding: 0 10px; 
+padding-right: 194px;
+
+
+}
+
+
+
+.cebouton {
+height:22px;
+position: relative;
+    right: 4px;
+}
+
+.logo
+{
+	margin: 0 1em;
+    position: relative;
+}
+
+.input, .btn-group
+ {
+ 	display: flex;
+    margin-top: 10px;
+ }
+.btn-group button {
+	background-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    opacity: .5 ;
+    height: 30px;
+    font-size: 22px;
+    }
+
+    .btn-group button:hover {
+    	opacity:1 ;
+    }
+.btn-group a {
+	color: white;
+    text-decoration: none;
+	padding: 0 0 0 10px;    
+    }
+    
+    .btn-group a:hover
+    { background-color: rgba(0,0,0,.1);
+    text-decoration: none;
+
+
+    }
+    
+    #LyKorne
+    { 
+    	width: 25px;
+    	height: 25px;
+    	border-radius:50%;
+    	left: -479px;
+        top: -9px;
+     }
+.Text
+{
+	position: relative;
+    top: 4px;
+}
+
+.username
+{
+	position:relative;
+	bottom: 6px;
+}
