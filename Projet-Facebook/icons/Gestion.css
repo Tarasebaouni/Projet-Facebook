@@ -21,7 +21,8 @@ li {
 }
 
 a {
-text-decoration: none;	
+text-decoration: none;
+color: black;	
 }
 
 .img1
@@ -31,8 +32,27 @@ text-decoration: none;
     width: 27px;
 }
 
-.user
+.typo
 {
+font-family: sans-serif;
+
+}
+
+h4
+{
+	margin-left: 42px;
+
+}
+
+.photo
+
+{
+	margin-left: 42px
+
+}
 
 
+{
+	text-decoration: none;
+    color: black;
 }

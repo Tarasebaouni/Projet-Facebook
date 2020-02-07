@@ -1,0 +1,70 @@
+.story, .contact-list, .publication-view {
+    padding: .75rem;
+}
+
+.titles {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.story-images, .contact-images, .pview-images {
+    position: relative;
+    
+}
+
+
+.story-images a {
+    height: 201px;
+    width: 113px;
+    overflow: hidden;
+    
+}
+
+.story-images a, .contact-images a, .pview-images a {
+    display: inline-block;
+    position: relative;
+    border-radius: 8px;
+    background-color: #dbdcdd;
+}
+
+.story-images img {
+    height: 100%;
+    min-height: 100%;
+}
+
+.story-images span {
+    background-color: white;
+    border-radius: 50%;
+    top: 8px;
+    color: #24519b;
+    font-size: 20px;
+}
+
+.story-images button img {
+    background-color: #dbdbdb;
+    position: absolute;
+    top: 8px;
+    min-height: 20%;
+    height: 10%;
+    border-radius: 50%;
+    border: solid 3px #24519b;
+}
+
+.story-images span, .contact-images span, .pview-images span {
+    position: absolute;
+    padding: 8px 12px;
+}
+
+.story-images p {
+    position: absolute;
+    bottom: 5px;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.contact-images span {
+    padding: 4px 6px;
+}
